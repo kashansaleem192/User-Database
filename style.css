@@ -1,0 +1,46 @@
+table {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    text-align: center;
+    background-color: lightgreen;
+    color: darkgreen;
+}
+
+table {
+    text-align: center;
+    border-color: green;
+    border-spacing: 0cap;
+    width: 100%;
+}
+
+#box1 {
+    color: darkgreen;
+}
+
+.child1 {
+    color: green;
+    font-weight: bold;
+}
+
+.child2 {
+    color: green;
+    background-color: lightgreen;
+    border-color: darkgreen;
+    width: 90px;
+    height: 30px;
+    font-weight: bold;
+}
+
+.child3 {
+    background-color: lightgreen;
+}
+.box1,.box3 {width: 35%;}
+.box2{width: 30%;}
+
+.box1,.box3, .box2 {
+    display: inline-block;
+}
